@@ -1,0 +1,10 @@
+@import url('../fonts/nunito/font.css');
+
+body,
+.nunito {
+  font-family: 'Nunito', sans-serif !important;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+  padding: 0;
+}
