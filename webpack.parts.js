@@ -19,7 +19,7 @@ exports.loadImagesAndFonts = {
                 use: {
                     loader: "file-loader",
                     options: {
-                        name: "images/[name].[ext]",
+                        name: "[name].[ext]",
                     },
                 },
             },
@@ -28,7 +28,7 @@ exports.loadImagesAndFonts = {
                 use: {
                     loader: "file-loader",
                     options: {
-                        name: "fonts/[name].[ext]",
+                        name: "[name].[ext]",
                     },
                 },
             },
@@ -144,6 +144,6 @@ exports.loadAndExtractCSS = {
     },
     plugins: [
         new MiniCssExtractPlugin({
-            filename: "styles/[name].css",
+            filename: "[name].css",
         })],
 };
