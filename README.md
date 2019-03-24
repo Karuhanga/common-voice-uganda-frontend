@@ -4,7 +4,7 @@ Inspired by [Mozilla Common Voice](https://voice.mozilla.org/en), the goal for t
 
 ## Frontend
 
-This part of the project is live (here)[https://karuhanga.github.io/common-voice-uganda-frontend/dist/].
+This part of the project is live [here](https://karuhanga.github.io/common-voice-uganda-frontend/dist/).
 
 The frontend is primarily a web interface supporting the recording and validation of voice snippet data that are;
 - Open source
