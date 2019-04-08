@@ -8,3 +8,22 @@ body,
   margin: 0;
   padding: 0;
 }
+
+.content{
+  padding: 10vh 2vw;
+}
+
+.grow{
+  flex-grow: 1;
+}
+
+.contribute-section{
+  justify-content: center;
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+}
+
+.action-image{
+  height: 0;
+}
