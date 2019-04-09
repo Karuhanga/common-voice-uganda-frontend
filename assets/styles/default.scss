@@ -38,17 +38,17 @@ body,
   align-self: center;
 }
 
-.contribute-icon.MuiPaper-rounded-11 {
-  border-radius: 70px;
-  height: 96px;
-  margin: 30px;
-  box-shadow: rgba(0,0,0,0.09) 0px 1px 6px,rgba(0,0,0,0.09) 0px 1px 4px, 0 0 40px -10px #ffbdc3;
+.contribute-icon {
+  border-radius: 70px !important;
+  height: 96px !important;
+  margin: 30px !important;
+  box-shadow: rgba(0,0,0,0.09) 0px 1px 6px,rgba(0,0,0,0.09) 0px 1px 4px, 0 0 40px -10px #ffbdc3 !important;
   transition-duration: .5s;
   cursor: pointer;
 }
 
-.contribute-icon.MuiPaper-rounded-11:hover {
-  box-shadow: rgba(0,0,0,0.09) 0px 1px 6px,rgba(0,0,0,0.09) 0px 1px 4px, 0 0 20px -10px #ffbdc3;
+.contribute-icon:hover {
+  box-shadow: rgba(0,0,0,0.09) 0px 1px 6px,rgba(0,0,0,0.09) 0px 1px 4px, 0 0 20px -10px #ffbdc3 !important;
 }
 
 #contribute-section-1{
