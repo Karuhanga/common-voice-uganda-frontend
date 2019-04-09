@@ -1,4 +1,18 @@
+@charset "utf-8";
+@import "~bulma/bulma";
 @import url('../fonts/nunito/font.css');
+
+$purple: #8A4D76;
+$pink: #FA7C91;
+$brown: #757763;
+$beige-light: #D0D1CD;
+$beige-lighter: #EFF0EB;
+
+$family-sans-serif: "Nunito", sans-serif;
+$grey-dark: $brown;
+$grey-light: $beige-light;
+$primary: $purple;
+$link: $pink;
 
 body,
 .nunito {
@@ -9,21 +23,51 @@ body,
   padding: 0;
 }
 
-.content{
-  padding: 10vh 2vw;
-}
-
 .grow{
   flex-grow: 1;
 }
 
 .contribute-section{
   justify-content: center;
-  min-height: 50vh;
+  min-height: 75vh;
   display: flex;
   align-items: center;
 }
 
-.action-image{
-  height: 0;
+.is-middle{
+  align-self: center;
 }
+
+.contribute-icon.MuiPaper-rounded-11 {
+  border-radius: 70px;
+  height: 96px;
+  margin: 30px;
+  box-shadow: rgba(0,0,0,0.09) 0px 1px 6px,rgba(0,0,0,0.09) 0px 1px 4px, 0 0 40px -10px #ffbdc3;
+  transition-duration: .5s;
+  cursor: pointer;
+}
+
+.contribute-icon.MuiPaper-rounded-11:hover {
+  box-shadow: rgba(0,0,0,0.09) 0px 1px 6px,rgba(0,0,0,0.09) 0px 1px 4px, 0 0 20px -10px #ffbdc3;
+}
+
+#contribute-section-1{
+  background: url("../images/left.png") no-repeat center center;
+  background-size: cover;
+}
+
+#contribute-section-2{
+  background: url("../images/right.png") no-repeat center center;
+  background-size: cover;
+}
+
+.intro.section {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.center {
+  justify-content: center;
+  display: flex;
+}
+

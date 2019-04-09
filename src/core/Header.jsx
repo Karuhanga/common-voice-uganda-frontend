@@ -4,9 +4,9 @@ import React from "react";
 export default () => {
     return (
         <AppBar>
-            <Toolbar>
-                <Typography variant="h6">
-                    Common Voice Uganda
+            <Toolbar className="center">
+                <Typography variant="h5">
+                    <strong>Common Voice Uganda</strong>
                 </Typography>
             </Toolbar>
         </AppBar>
