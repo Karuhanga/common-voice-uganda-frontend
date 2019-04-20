@@ -5,10 +5,11 @@ import {Card, CardContent, CardHeader, Typography} from "@material-ui/core";
 import Chart from "./Chart";
 import Paper from "@material-ui/core/Paper";
 import github from "../../assets/images/github.svg"
+import {Link} from "react-router-dom";
 
 export default function HomeComponent() {
     return (
-        <main className="content">
+        <>
             <div className="section intro">
                 <div className="columns">
                     <div id="contribute-section-1" className="column contribute-section">
@@ -17,7 +18,9 @@ export default function HomeComponent() {
                             <Typography variant="h4">Donate your voice</Typography>
                         </div>
                         <Paper className="contribute-icon">
-                            <MicNone className="image is-96x96"  />
+                            <Link to="/record">
+                                <MicNone className="image is-96x96"  />
+                            </Link>
                         </Paper>
                     </div>
                     <div id="contribute-section-2" className="column contribute-section">
@@ -26,7 +29,9 @@ export default function HomeComponent() {
                             <Typography variant="h4">Help us validate voices</Typography>
                         </div>
                         <Paper className="contribute-icon">
-                            <PlayArrow className="image is-96x96" />
+                            <Link to="/listen">
+                                <PlayArrow className="image is-96x96" />
+                            </Link>
                         </Paper>
                     </div>
                 </div>
@@ -82,6 +87,6 @@ export default function HomeComponent() {
                     ** This project is in no way affiliated to Mozilla or the Official <a href="https://voice.mozilla.org/en">Common Voice Project</a> **
                 </Typography>
             </footer>
-        </main>
+        </>
     );
 }

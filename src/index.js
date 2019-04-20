@@ -8,6 +8,7 @@ import {render} from 'react-dom';
 import React from "react";
 import store from './store';
 import mars from "../assets/images/mars.png";
+import {BrowserRouter} from "react-router-dom";
 
 const theme = createMuiTheme({
     typography: {
@@ -31,7 +32,9 @@ render(
     <div>
         <MuiThemeProvider theme={theme}>
             <Provider store={store}>
-                <App />
+                <BrowserRouter>
+                    <App />
+                </BrowserRouter>
             </Provider>
         </MuiThemeProvider>
     </div>,
