@@ -7070,3 +7070,6 @@ a, a:hover {
     bottom: 0;
     opacity: 0; } }
 
+#player {
+  height: 15vh; }
+
