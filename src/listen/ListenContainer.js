@@ -63,7 +63,6 @@ export default class ListenContainer extends Component{
         const {recording: {id}} = this.state;
 
         this.setState({
-            recording: null,
             fetching: false,
             loading: true,
         });
@@ -73,7 +72,6 @@ export default class ListenContainer extends Component{
             method: correct ? "POST" : "DELETE"
         }).then((response) => {
             this.setState({
-                recording: null,
                 fetching: false,
                 loading: false,
             });
@@ -86,7 +84,6 @@ export default class ListenContainer extends Component{
             }
         }).catch(error=> {
             this.setState({
-                recording: null,
                 fetching: false,
                 loading: false,
             });
