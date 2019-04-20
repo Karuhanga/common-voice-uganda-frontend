@@ -12,7 +12,7 @@ $grey-light: $beige-light;
 $primary: #f3c7d2;
 $link: $pink;
 
-@import "~bulma/bulma";
+@import "../../../node_modules/bulma/bulma";
 
 body,
 .nunito {

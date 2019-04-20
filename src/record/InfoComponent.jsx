@@ -1,11 +1,11 @@
-import {Button, Typography} from "@material-ui/core";
+import {Button, Typography, CircularProgress} from "@material-ui/core";
 import React from "react";
 
 export default ({loading, recording, uploading, click, onRecordingDone, statement, retryLoading, loadingError}) => {
     return (
         <div>
             {loading ?
-                "Loading..." : loadingError ?
+                <CircularProgress color="secondary" /> : loadingError ?
                     (
                         <div>
                             <Typography className="is-size-6">Failed to load sentence</Typography>

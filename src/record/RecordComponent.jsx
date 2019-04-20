@@ -1,6 +1,6 @@
 import React from "react";
 import {ReactMic} from "react-mic";
-import {Button, Typography} from "@material-ui/core";
+import {Button, CircularProgress, Typography} from "@material-ui/core";
 import Card from "@material-ui/core/Card";
 import InfoComponent from "./InfoComponent";
 
@@ -29,6 +29,9 @@ export default function (props) {
                         <Button disabled={uploading || loading || loadingError || recording} onClick={retryLoading} size="large" color="primary" variant="contained">
                             Skip this one
                         </Button>
+                        <br/>
+                        <br/>
+                        {uploading ? <CircularProgress color="secondary" /> : ""}
                     </div>
                 </div>
             </div>

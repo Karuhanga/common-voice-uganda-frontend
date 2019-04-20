@@ -4,7 +4,7 @@ import MicNone from '@material-ui/icons/MicNone';
 import {Card, CardContent, CardHeader, Typography} from "@material-ui/core";
 import Chart from "./Chart";
 import Paper from "@material-ui/core/Paper";
-import github from "../../assets/images/github.svg"
+import github from "../assets/images/github.svg"
 import {Link} from "react-router-dom";
 
 export default function HomeComponent() {

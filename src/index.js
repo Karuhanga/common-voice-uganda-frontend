@@ -1,6 +1,6 @@
 import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
 
-require('../assets/styles/default.scss');
+require('./assets/styles/default.scss');
 
 import App from './core/AppContainer';
 import {Provider} from "react-redux";
