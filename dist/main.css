@@ -7001,7 +7001,7 @@ body,
 a, a:hover {
   color: #4892b4; }
 
-.record {
+.record, .listen {
   min-height: 75vh;
   display: flex;
   align-items: center;

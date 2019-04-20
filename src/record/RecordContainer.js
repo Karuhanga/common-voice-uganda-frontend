@@ -52,7 +52,7 @@ export default class RecordContainer extends Component {
         toast("Uploading...", true);
 
         let formData = new FormData();
-        formData.append("id", statement.id);
+        formData.append("common_voice_id", statement.id);
         formData.append("text", statement.text);
         formData.append("recording", recordedVoice.blob);
 
